@@ -180,6 +180,20 @@ const result = await projectHeavinessAnalyzer.execute({
 - Performance optimization decisions
 
 ## 🔧 Configuration
+### Environment Variables
+
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `ANTHROPIC_API_KEY` | Your Anthropic API key for Claude access | Yes |
+| `GITHUB_TOKEN` | GitHub personal access token for API access | Yes |
+
+### Agent Configuration
+
+The GitHub agent is configured with:
+- **Model**: Claude 3.5 Sonnet (claude-3-5-sonnet-20241022)
+- **Memory**: LibSQL-based persistent storage
+- **Tools**: File analysis, content fetching, commit tracking, README generation
+
 ### Heavy Dependencies Configuration
 
 Add or modify heavy dependencies in `analyzeDependencies.ts`:
@@ -190,6 +204,18 @@ const heavyPackagesList = {
   // ... other packages
 };
 ```
+## 🔒 API Keys Setup
+
+### Anthropic API Key
+1. Visit [Anthropic Console](https://console.anthropic.com/)
+2. Create an account or sign in
+3. Generate an API key
+4. Add it to your `.env` file
+
+### GitHub Token
+1. Go to GitHub Settings → Developer settings → Personal access tokens
+2. Generate a new token with repository access permissions
+3. Add it to your `.env` file
 
 ## 📋 API Reference
 
