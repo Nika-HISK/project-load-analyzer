@@ -366,5 +366,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Anthropic Claude**: For powering the AI analysis
 - **GitHub API**: For repository data access
 - **Open Source Community**: For dependency insights and feedback
-
-**⚡ Built with Mastra Framework | 🤖 Powered by Claude AI | 🔧 Made for Developers**
