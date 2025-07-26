@@ -1,19 +1,19 @@
-# 🤖 Mastra GitHub Agent
+#  Mastra GitHub Agent
 
 A comprehensive AI-powered GitHub repository analysis tool built with Mastra framework that provides deep insights into project complexity, resource requirements, and server capacity planning.
 
-## ✨ Features
+##  Features
 
-- **🔍 Repository Analysis**: Deep scan of GitHub repositories including file structure, dependencies, and codebase metrics
-- **📊 Project Heaviness Assessment**: Intelligent analysis of resource-intensive dependencies and complexity scoring
-- **💾 Resource Estimation**: Estimates RAM, CPU, and disk usage based on project characteristics
-- **👥 Concurrent User Capacity Planning**: Provides realistic user capacity ranges based on server specifications
-- **📋 Dependency Risk Assessment**: Categorizes and scores dependencies by resource impact (AI/ML, Browser Automation, etc.)
-- **🐳 Infrastructure Detection**: Identifies Docker, Kubernetes, and other deployment configurations
-- **📝 Automated README Generation**: Creates comprehensive documentation for repositories
-- **🔧 Multi-language Support**: Analyzes projects in TypeScript, JavaScript, Python, Java, Go, Rust, and C/C++
+- ** Repository Analysis**: Deep scan of GitHub repositories including file structure, dependencies, and codebase metrics
+- ** Project Heaviness Assessment**: Intelligent analysis of resource-intensive dependencies and complexity scoring
+- ** Resource Estimation**: Estimates RAM, CPU, and disk usage based on project characteristics
+- ** Concurrent User Capacity Planning**: Provides realistic user capacity ranges based on server specifications
+- ** Dependency Risk Assessment**: Categorizes and scores dependencies by resource impact (AI/ML, Browser Automation, etc.)
+- ** Infrastructure Detection**: Identifies Docker, Kubernetes, and other deployment configurations
+- ** Automated README Generation**: Creates comprehensive documentation for repositories
+- ** Multi-language Support**: Analyzes projects in TypeScript, JavaScript, Python, Java, Go, Rust, and C/C++
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Core Components
 
@@ -45,7 +45,7 @@ src/
 | `generateReadmeFromRepo` | Creates README from repo analysis | Owner, repo | Markdown README |
 | `projectHeavinessAnalyzer` | Main analysis engine | Owner, repo, server specs | Comprehensive analysis report |
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -90,7 +90,7 @@ You: "Tell me what kind of server specifications i need for this project {github
 Agent: [Generates comprehensive guide for your project]
 ```
 
-## 🛠️ Usage
+##  Usage
 
 ### Basic Repository Analysis
 
@@ -126,7 +126,7 @@ const result = await projectHeavinessAnalyzer.execute({
 });
 ```
 
-## 📊 Analysis Categories
+##  Analysis Categories
 
 ### Dependency Risk Levels
 
@@ -139,47 +139,47 @@ const result = await projectHeavinessAnalyzer.execute({
 
 ### Heavy Dependency Categories
 
-- **🤖 AI/ML**: TensorFlow, OpenCV, MediaPipe
-- **🌐 Browser Automation**: Puppeteer, Playwright, Selenium
-- **🖼️ Image Processing**: Sharp, Canvas, JIMP
-- **🎬 Video Processing**: FFmpeg, Node-FFmpeg
-- **🗄️ Database**: MySQL2, PostgreSQL, MongoDB, Redis
-- **⚙️ Build Tools**: Webpack, Vite, Rollup
-- **🔧 Frameworks**: Next.js, Nuxt, Electron
-- **🔐 Crypto**: bcrypt, Argon2
-- **📁 File Processing**: PDF-parse, XLSX, Archiver
-- **🧪 Testing**: Jest, Cypress, Storybook
+- ** AI/ML**: TensorFlow, OpenCV, MediaPipe
+- ** Browser Automation**: Puppeteer, Playwright, Selenium
+- ** Image Processing**: Sharp, Canvas, JIMP
+- ** Video Processing**: FFmpeg, Node-FFmpeg
+- ** Database**: MySQL2, PostgreSQL, MongoDB, Redis
+- ** Build Tools**: Webpack, Vite, Rollup
+- ** Frameworks**: Next.js, Nuxt, Electron
+- ** Crypto**: bcrypt, Argon2
+- ** File Processing**: PDF-parse, XLSX, Archiver
+- ** Testing**: Jest, Cypress, Storybook
 
-## 📈 Accuracy & Limitations
+##  Accuracy & Limitations
 
 ### Accuracy Rating: **6/10**
 
-#### ✅ Strengths
+####  Strengths
 - **Dependency Detection**: Excellent at identifying resource-intensive packages
 - **Relative Comparison**: Very good for comparing project complexity
 - **Risk Assessment**: Effective at flagging potential issues
 - **Initial Sizing**: Good ballpark estimates for development planning
 
-#### ❌ Limitations
+####  Limitations
 - **Runtime Behavior**: Cannot detect actual code execution patterns
 - **Architecture Gaps**: Misses clustering, microservices, caching strategies
 - **Production Reality**: Doesn't account for real-world traffic patterns
 - **Database Impact**: Cannot analyze database query efficiency
 
-#### 🎯 Best Use Cases
+####  Best Use Cases
 - Initial project assessment
 - Dependency auditing
 - Development environment sizing
 - Risk awareness and planning
 - Relative project comparison
 
-#### ⚠️ Not Recommended For
+####  Not Recommended For
 - Production capacity planning
 - SLA commitments
 - Critical system sizing
 - Performance optimization decisions
 
-## 🔧 Configuration
+## Configuration
 ### Environment Variables
 
 | Variable | Description | Required |
@@ -204,7 +204,7 @@ const heavyPackagesList = {
   // ... other packages
 };
 ```
-## 🔒 API Keys Setup
+##  API Keys Setup
 
 ### Anthropic API Key
 1. Visit [Anthropic Console](https://console.anthropic.com/)
@@ -217,7 +217,7 @@ const heavyPackagesList = {
 2. Generate a new token with repository access permissions
 3. Add it to your `.env` file
 
-## 📋 API Reference
+## API Reference
 
 ### GitHubAgent
 
@@ -293,7 +293,7 @@ string // Markdown report with resource analysis
 }
 ```
 
-## 🏆 Example Outputs
+##  Example Outputs
 
 ### Project Analysis Report
 
@@ -329,7 +329,7 @@ string // Markdown report with resource analysis
 - Add caching layer
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. **Fork the repository**
 2. **Create a feature branch**
@@ -356,11 +356,11 @@ string // Markdown report with resource analysis
 - Maintain backward compatibility
 - Update documentation for API changes
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Mastra Framework**: For providing the agent infrastructure
 - **Anthropic Claude**: For powering the AI analysis
