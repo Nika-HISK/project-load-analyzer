@@ -4,14 +4,14 @@ A comprehensive AI-powered GitHub repository analysis tool built with Mastra fra
 
 ##  Features
 
-- ** Repository Analysis**: Deep scan of GitHub repositories including file structure, dependencies, and codebase metrics
-- ** Project Heaviness Assessment**: Intelligent analysis of resource-intensive dependencies and complexity scoring
-- ** Resource Estimation**: Estimates RAM, CPU, and disk usage based on project characteristics
-- ** Concurrent User Capacity Planning**: Provides realistic user capacity ranges based on server specifications
-- ** Dependency Risk Assessment**: Categorizes and scores dependencies by resource impact (AI/ML, Browser Automation, etc.)
-- ** Infrastructure Detection**: Identifies Docker, Kubernetes, and other deployment configurations
-- ** Automated README Generation**: Creates comprehensive documentation for repositories
-- ** Multi-language Support**: Analyzes projects in TypeScript, JavaScript, Python, Java, Go, Rust, and C/C++
+- **Repository Analysis**: Deep scan of GitHub repositories including file structure, dependencies, and codebase metrics
+- **Project Heaviness Assessment**: Intelligent analysis of resource-intensive dependencies and complexity scoring
+- **Resource Estimation**: Estimates RAM, CPU, and disk usage based on project characteristics
+- **Concurrent User Capacity Planning**: Provides realistic user capacity ranges based on server specifications
+- **Dependency Risk Assessment**: Categorizes and scores dependencies by resource impact (AI/ML, Browser Automation, etc.)
+- **Infrastructure Detection**: Identifies Docker, Kubernetes, and other deployment configurations
+- **Automated README Generation**: Creates comprehensive documentation for repositories
+- **Multi-language Support**: Analyzes projects in TypeScript, JavaScript, Python, Java, Go, Rust, and C/C++
 
 ##  Architecture
 
