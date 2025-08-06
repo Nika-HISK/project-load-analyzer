@@ -79,7 +79,7 @@ ANTHROPIC_API_KEY=your_anthropic_api_key
 ```bash
 npm run start
 ```
-5. **Interact with the Agent
+5. **Interact with the Agent**
 Once running, you can chat with the GitHub agent:
 ```bash
 # Example conversation
