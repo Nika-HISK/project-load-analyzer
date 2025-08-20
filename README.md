@@ -359,10 +359,3 @@ string // Markdown report with resource analysis
 ##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-##  Acknowledgments
-
-- **Mastra Framework**: For providing the agent infrastructure
-- **Anthropic Claude**: For powering the AI analysis
-- **GitHub API**: For repository data access
-- **Open Source Community**: For dependency insights and feedback
