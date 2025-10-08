@@ -351,5 +351,3 @@ string // Markdown report with resource analysis
 ### Development Guidelines
 
 - Follow TypeScript best practices
-- Add JSDoc comments for new functions
-- Update tests for new features
