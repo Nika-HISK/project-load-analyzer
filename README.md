@@ -347,7 +347,3 @@ string // Markdown report with resource analysis
    git push origin feature/amazing-feature
    ```
 7. **Open a Pull Request**
-
-### Development Guidelines
-
-- Follow TypeScript best practices
